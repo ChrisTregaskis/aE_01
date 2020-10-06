@@ -1,0 +1,26 @@
+.defaultBtn {
+    -webkit-appearance: none;
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 24px;
+    padding: 4px 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, .13);
+    transition: all 0.3s ease;
+}
+
+.defaultBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 6px -1px rgba(255, 255, 255, .65);
+    cursor: pointer;
+}
+
+.defaultBtn:hover:active {
+    transform: scale(0.99);
+}
+
+.defaultBtn:focus {
+    outline:0;
+}
